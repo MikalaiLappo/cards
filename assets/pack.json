@@ -1,0 +1,25 @@
+{
+  "preload": {
+    "files": [
+      {
+        "type": "bitmapFont",
+        "key": "pcsenior",
+        "textureURL": "./assets/font/pcsenior.png",
+        "fontDataURL": "./assets/font/pcsenior.fnt"
+      },
+      {
+        "type": "spritesheet",
+        "key": "CuteCardsPixel",
+        "url": "./assets/images/CuteCardsPixel.png",
+        "frameConfig": {
+          "frameWidth": 92,
+          "frameHeight": 136,
+          "startFrame": 0,
+          "endFrame": 59,
+          "margin": 4,
+          "spacing": 8
+        }
+      }
+    ]
+  }
+}

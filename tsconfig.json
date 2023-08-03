@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["DOM", "es2019", "ES2015.Iterable", "DOM.Iterable"],
+    "noImplicitAny": true,
+    "strict": false
+  }
+}
