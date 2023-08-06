@@ -1,11 +1,11 @@
-var path = require('path');
-var pathToPhaser = path.join(__dirname, '/node_modules/phaser/');
-var phaser = path.join(pathToPhaser, 'dist/phaser.js');
+const path = require('path');
+const pathToPhaser = path.join(__dirname, '/node_modules/phaser/');
+const phaser = path.join(pathToPhaser, 'dist/phaser.js');
 
 module.exports = {
   entry: './game.ts',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, './public/dist'),
     filename: 'bundle.js'
   },
   module: {
@@ -15,8 +15,8 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, './'),
-    publicPath: '/dist/',
+    contentBase: path.resolve(__dirname, './public/'),
+    publicPath: '/',
     host: '127.0.0.1',
     port: 8080,
     open: true
